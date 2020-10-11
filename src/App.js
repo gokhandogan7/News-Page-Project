@@ -49,7 +49,9 @@ const App = () => {
       </View>
       <View style={{borderWidth: 2, borderRadius: 5, marginBottom: 10}}>
         <View style={{alignItems: 'center'}}>
-          <Text style={{fontWeight: 'bold', color:'#c41c00'}}>FIA post-race press conference – Germany</Text>
+          <Text style={{fontWeight: 'bold', color: '#c41c00'}}>
+            FIA post-race press conference – Germany
+          </Text>
         </View>
         <Image
           resizeMode="cover"
@@ -71,7 +73,9 @@ const App = () => {
       </View>
       <View style={{borderWidth: 2, borderRadius: 5, marginBottom: 10}}>
         <View style={{alignItems: 'center'}}>
-          <Text style={{fontWeight: 'bold', color:'#c41c00'}}>Perth Queen Regains Her Crown Over Camelot</Text>
+          <Text style={{fontWeight: 'bold', color: '#c41c00'}}>
+            Perth Queen Regains Her Crown Over Camelot
+          </Text>
         </View>
         <Image
           resizeMode="cover"
@@ -83,12 +87,17 @@ const App = () => {
           source={require('../img/horse-riding.jpg')}
         />
         <Text>
-          Top Perth jockey Willie Pike has stolen the show early in the Caulfield meeting with a winning treble, highlighted by a shock victory aboard Arcadia Queen, who claimed the scalp of boom galloper Russian Camelot.
+          Top Perth jockey Willie Pike has stolen the show early in the
+          Caulfield meeting with a winning treble, highlighted by a shock
+          victory aboard Arcadia Queen, who claimed the scalp of boom galloper
+          Russian Camelot.
         </Text>
       </View>
       <View style={{borderWidth: 2, borderRadius: 5, marginBottom: 10}}>
         <View style={{alignItems: 'center'}}>
-          <Text style={{fontWeight: 'bold', color:'#c41c00'}}>Turkey to allow limited fan attendance at matches from October</Text>
+          <Text style={{fontWeight: 'bold', color: '#c41c00'}}>
+            Turkey to allow limited fan attendance at matches from October
+          </Text>
         </View>
         <Image
           resizeMode="cover"
@@ -100,12 +109,18 @@ const App = () => {
           source={require('../img/turkishnews.jpg')}
         />
         <Text>
-          Turkey halted its 2019-20 season in March due to the virus and resumed matches in June without spectators. Last month, the top-tier Super League concluded with Istanbul Basaksehir winning the title for the first time, breaking the dominance of the “Big Three” in Turkey - Fenerbahce, Galatasaray and Besiktas.
+          Turkey halted its 2019-20 season in March due to the virus and resumed
+          matches in June without spectators. Last month, the top-tier Super
+          League concluded with Istanbul Basaksehir winning the title for the
+          first time, breaking the dominance of the “Big Three” in Turkey -
+          Fenerbahce, Galatasaray and Besiktas.
         </Text>
       </View>
       <View style={{borderWidth: 2, borderRadius: 5, marginBottom: 10}}>
-        <View style={{alignItems:'center'}}>
-          <Text style={{fontWeight: 'bold', color:'#c41c00'}}>When Joan overtook me I said 'no way'</Text>
+        <View style={{alignItems: 'center'}}>
+          <Text style={{fontWeight: 'bold', color: '#c41c00'}}>
+            When Joan overtook me I said 'no way'
+          </Text>
         </View>
         <Image
           resizeMode="cover"
@@ -117,7 +132,9 @@ const App = () => {
           source={require('../img/Moto3_polee.jpg')}
         />
         <Text>
-          Fabio Quartararo admits MotoGP title thoughts entered his mind when he was overtaken on the last lap of the French Grand Prix by Joan Mir; ' I said 'no way', I will not finish without trying something...'
+          Fabio Quartararo admits MotoGP title thoughts entered his mind when he
+          was overtaken on the last lap of the French Grand Prix by Joan Mir; '
+          I said 'no way', I will not finish without trying something...'
         </Text>
       </View>
     </ScrollView>
