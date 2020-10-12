@@ -22,7 +22,7 @@ const MyComponent = (props) => {
 export default MyComponent;
 const styles = StyleSheet.create({
   container: {
-    borderWidth: 2,
+    borderWidth: 1,
     borderRadius: 5,
     marginBottom: 10,
   },
