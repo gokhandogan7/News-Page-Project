@@ -73,7 +73,7 @@ const App = () => {
         <View>
           <Button
             title="All Categories"
-            color="#ff8a50"
+            color="#34515e"
             style={{borderRadius: 20}}
           />
         </View>
