@@ -49,7 +49,7 @@ const App = () => {
           flexDirection: 'row',
           padding: 7,
           justifyContent: 'space-between',
-          backgroundColor: '#ffd54f',
+          backgroundColor: '#78002e',
           alignItems: 'center',
         }}>
         <View>
@@ -73,7 +73,7 @@ const App = () => {
         <View>
           <Button
             title="All Categories"
-            color="#21aaaa"
+            color="#ff8a50"
             style={{borderRadius: 20}}
           />
         </View>
