@@ -13,6 +13,7 @@ import MyComponent from './components/MyComponent';
 import DataNews from './news1_data.json';
 // const news_data = [
 //   {
+  
 //     id: 0,
 //     title: 'FIA post-race press conference – Germany',
 //     imageUrl: require('./img/Ferrari-PA.jpg'),
