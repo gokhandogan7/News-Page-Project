@@ -11,8 +11,7 @@ const MyComponent = (props) => {
       <Image
         resizeMode="cover"
         style={styles.image}
-        source={props.image
-        }
+        source={{uri: props.image}}
       />
       <Text>{props.desc}</Text>
     </View>
@@ -31,7 +30,7 @@ const styles = StyleSheet.create({
     color: '#c41c00',
   },
   image: {
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height * 0.19,
+    width: Dimensions.get('window').width * 1,
+    height: Dimensions.get('window').height * 0.22,
   },
 });
