@@ -10,11 +10,12 @@ import {
   Dimensions,
   Button,
   ScrollView,
+  StyleSheet,
 } from 'react-native';
 
 const Navi = () => {
   return (
-    <ScrollView style={{flex: 1}}>
+    <View style={{flex: 1}}>
       <View
         style={{
           flexDirection: 'row',
@@ -26,20 +27,14 @@ const Navi = () => {
         <View>
           <Image
             resizeMode="cover"
-            style={{
-              width: Dimensions.get('window').width * 0.18,
-              height: Dimensions.get('window').height * 0.07,
-            }}
-            source={require('./img/1579883124sportsballs1.png')}
+            style={styles.image}
+            source={require('../img/1579883124sportsballs1.png')}
           />
         </View>
         <Image
           resizeMode="cover"
-          style={{
-            width: Dimensions.get('window').width * 0.15,
-            height: Dimensions.get('window').height * 0.06,
-          }}
-          source={require('./img/logo-tablet.png')}
+          style={styles.image}
+          source={require('../img/logo-tablet.png')}
         />
         <View>
           <Button
@@ -49,8 +44,15 @@ const Navi = () => {
           />
         </View>
       </View>
-    </ScrollView>
+    </View>
   );
 };
 
 export default Navi;
+
+const styles = StyleSheet.create({
+  image: {
+    width: Dimensions.get('window').width * 0.18,
+    height: Dimensions.get('window').height * 0.07,
+  },
+});

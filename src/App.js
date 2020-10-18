@@ -11,44 +11,15 @@ import {
 } from 'react-native';
 import MyComponent from './components/MyComponent';
 import DataNews from './news1_data.json';
+import Navi from './components/header';
 
 const App = () => {
   return (
     <ScrollView style={{flex: 1}}>
-      <View
-        style={{
-          flexDirection: 'row',
-          padding: 7,
-          justifyContent: 'space-between',
-          backgroundColor: '#78002e',
-          alignItems: 'center',
-        }}>
-        <View>
-          <Image
-            resizeMode="cover"
-            style={{
-              width: Dimensions.get('window').width * 0.18,
-              height: Dimensions.get('window').height * 0.07,
-            }}
-            source={require('./img/1579883124sportsballs1.png')}
-          />
-        </View>
-        <Image
-          resizeMode="cover"
-          style={{
-            width: Dimensions.get('window').width * 0.15,
-            height: Dimensions.get('window').height * 0.06,
-          }}
-          source={require('./img/logo-tablet.png')}
-        />
-        <View>
-          <Button
-            title="All Categories"
-            color="#34515e"
-            style={{borderRadius: 20}}
-          />
-        </View>
+      <View>
+        <Navi />
       </View>
+
       <View>
         {DataNews.map((news) => {
           return (
