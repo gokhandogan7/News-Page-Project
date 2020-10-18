@@ -17,13 +17,7 @@ const Navi = () => {
   return (
     <View style={{flex: 1}}>
       <View
-        style={{
-          flexDirection: 'row',
-          padding: 7,
-          justifyContent: 'space-between',
-          backgroundColor: '#78002e',
-          alignItems: 'center',
-        }}>
+        style={styles.container}>
         <View>
           <Image
             resizeMode="cover"
@@ -55,4 +49,11 @@ const styles = StyleSheet.create({
     width: Dimensions.get('window').width * 0.18,
     height: Dimensions.get('window').height * 0.07,
   },
+  container: {
+      flexDirection: 'row',
+          padding: 7,
+          justifyContent: 'space-between',
+          backgroundColor: '#78002e',
+          alignItems: 'center',
+  }
 });
